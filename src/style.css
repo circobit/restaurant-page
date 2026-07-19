@@ -129,6 +129,24 @@ button {
 }
 
 
+/* Footer */
+
+footer {
+	background-color: rgb(218,165,32);
+	height: 7rem;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	font-size: clamp(0.3rem, 0.5rem + 1vw, 1rem);
+	text-align: center;
+}
+
+.footerTitle {
+	font-weight: bold;
+}
+
+
 /* Hover */
 
 @media (hover: hover) {
