@@ -51,4 +51,30 @@ export function createContentWrapper() {
 	return main;
 }
 
+
+// Footer
+export function createFooter() {
+	// Footer element
+	const footer = document.createElement("footer");
+	footer.className = "footer";
+	// Footer title
+	const footerTitle = document.createElement("p");
+	footerTitle.textContent = "© 2026 San Telmo Restaurant";
+	footerTitle.className = "footerTitle";
+	// Footer address
+	const footerAddress = document.createElement("p");
+	footerAddress.textContent = "Av. del Libertador 4782";
+	// Footer city
+	const footerCity = document.createElement("p");
+	footerCity.textContent = "Autonomous City of Buenos Aires";
+	// Footer country
+	const footerCountry = document.createElement("p");
+	footerCountry.textContent = "Argentina";
+	// Append content to footer element
+	footer.appendChild(footerTitle);
+	footer.appendChild(footerAddress);
+	footer.appendChild(footerCity);
+	footer.appendChild(footerCountry);
+	// Return footer element
+	return footer;
 }

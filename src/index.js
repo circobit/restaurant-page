@@ -9,3 +9,5 @@ const contentDiv = document.getElementById("content");
 contentDiv.appendChild(createHeader());
 // Append content wrapper to #content div
 contentDiv.appendChild(createContentWrapper());
+// Append footer to #content div
+contentDiv.appendChild(createFooter());
