@@ -102,3 +102,12 @@ button {
 	font-weight: bold;
 	cursor: pointer;
 }
+
+
+/* Hover */
+
+@media (hover: hover) {
+	button:hover {
+		background-color: rgb(244, 195, 73);
+	}
+}
