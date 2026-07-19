@@ -50,12 +50,36 @@ h1, h2, h3, h4, h5, h6 {
 	font-display: swap;
 }
 
+@font-face {
+	font-family: "Roboto";
+	src: url("./assets/fonts/Roboto-Regular.ttf") format("truetype");
+	font-weight: 400;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "Roboto";
+	src: url("./assets/fonts/Roboto-Bold.ttf") format("truetype");
+	font-weight: 700;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "Roboto";
+	src: url("./assets/fonts/Roboto-Black.ttf") format("truetype");
+	font-weight: 900;
+	font-style: normal;
+	font-display: swap;
+}
+
 
 /* Body */
 
 body {
 	background-color: rgb(38, 38, 38);
-	font-family: "Argentina";
+	font-family: "Roboto";
 }
 
 #content {
@@ -80,6 +104,7 @@ body {
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	font-family: "Argentina";
 	font-size: clamp(1rem, 2rem + 1.5vw, 3rem);
 	font-weight: 900;
 	color: rgb(218,165,32);
