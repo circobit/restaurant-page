@@ -57,3 +57,12 @@ body {
 	background-color: rgb(38, 38, 38);
 	font-family: "Argentina";
 }
+
+#content {
+	display: flex;
+	flex-direction: column;
+	gap: 2rem;
+	max-width: 55rem;
+	margin: auto;
+	padding: 2rem;
+}
