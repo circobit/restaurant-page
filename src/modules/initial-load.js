@@ -1,4 +1,6 @@
 // modules/initial-load.js
+
+// Header
 export function createHeader() {
 	// Header container
 	const header = document.createElement("header");
@@ -37,4 +39,16 @@ export function createHeader() {
 	header.appendChild(nav);
 
 	return header;
+}
+
+
+// Content Wrapper
+export function createContentWrapper() {
+	// Main container
+	const main = document.createElement("main");
+	main.id = "mainContent";
+	// Return main element
+	return main;
+}
+
 }
