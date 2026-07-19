@@ -38,3 +38,22 @@ p {
 h1, h2, h3, h4, h5, h6 {
   text-wrap: balance;
 }
+
+
+/* Fonts */
+
+@font-face {
+	font-family: "Argentina";
+	src: url("./assets/fonts/argentina.ttf") format("truetype");
+	font-weight: 900;
+	font-style: normal;
+	font-display: swap;
+}
+
+
+/* Body */
+
+body {
+	background-color: rgb(38, 38, 38);
+	font-family: "Argentina";
+}
