@@ -86,9 +86,9 @@ body {
 	display: flex;
 	flex-direction: column;
 	gap: 2rem;
-	max-width: 55rem;
 	margin: auto;
-	padding: 2rem;
+	justify-content: space-between;
+	min-height: 100vh;
 }
 
 
@@ -147,10 +147,83 @@ footer {
 }
 
 
+/* Main Content div */
+
+#mainContent {
+	display: flex;
+	justify-content: center;
+}
+
+
+/* Home */
+
+.homeContent {
+	display: flex;
+	flex-direction: column;
+	gap: 1rem;
+	width: 100%;
+	max-width: 55rem;
+	padding: 1.5rem 2rem;
+}
+
+.homeContent h1,
+.homeContent h2 {
+	color: rgb(244, 195, 73);
+}
+
+.headlineCopy {
+	font-size: 1.5rem;
+	color: rgb(195, 193, 193);
+}
+
+.homeContent {
+	display: flex;
+	flex-direction: column;
+	gap: 2rem;
+	color: rgb(195, 193, 193);
+}
+
+.gridHighlights {
+	display: grid;
+	grid-template-columns: 1fr;
+	gap: 1rem;
+}
+
+.gridItem {
+	display: flex;
+	flex-direction: column;
+	border: 1px solid rgb(244, 195, 73);
+	border-radius: 15px;
+	padding: 1rem;
+	gap: 1rem;
+}
+
+.theGridTitle,
+.homemadeTitle,
+.wineAndSpiritTitle {
+	font-weight: bold;
+}
+
+
 /* Hover */
 
 @media (hover: hover) {
 	button:hover {
 		background-color: rgb(244, 195, 73);
+	}
+}
+
+
+/* Media queries to increase grid columns based in screen width */
+
+@media (min-width: 640px) {
+	.gridHighlights {
+		grid-template-columns: repeat(2, 1fr);
+	}
+}
+
+@media (min-width: 1024px) {
+	.gridHighlights {
+		grid-template-columns: repeat(3, 1fr);
 	}
 }
