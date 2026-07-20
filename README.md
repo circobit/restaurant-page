@@ -5,9 +5,9 @@ This project belongs to the [JavaScript course](https://www.theodinproject.com/l
 The objective of this project is to implement webpack and modules. The design is required to count with tabbed browsing. 
 
 
-## Credits
+## Demo
 
-- Images generated with [Gemini](https://gemini.google.com/)
+[Try It Here](https://circobit.github.io/restaurant-page/)
 
 
 ## Screenshots
@@ -15,3 +15,8 @@ The objective of this project is to implement webpack and modules. The design is
 ![Image showing the homepage of the restaurant page](./src/assets/images/screenshots/homepage.png)
 
 ![Image showing the menu of the restaurant page](./src/assets/images/screenshots/menu.png)
+
+
+## Credits
+
+- Images generated with [Gemini](https://gemini.google.com/)
