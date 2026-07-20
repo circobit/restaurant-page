@@ -7,7 +7,6 @@ The objective of this project is to implement webpack and modules. The design is
 
 ## Credits
 
-- [Fork and Knife SVG](https://www.svgrepo.com/svg/396525/fork-and-knife)
 - Images generated with [Gemini](https://gemini.google.com/)
 
 
