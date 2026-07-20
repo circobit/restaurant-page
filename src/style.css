@@ -227,6 +227,31 @@ footer {
 }
 
 
+/* About */
+
+.aboutContent {
+	display: flex;
+	flex-direction: column;
+	gap: 2rem;
+	width: 100%;
+	max-width: 55rem;
+	padding: 1.5rem 2rem;
+	color: rgb(195, 193, 193);
+}
+
+.aboutContent h1,
+.aboutContent h2 {
+	color: rgb(244, 195, 73);
+}
+
+.tradParrillaTitle,
+.portionsTitle,
+.sobremesaTitle {
+	font-weight: bold;
+	text-align: center;
+}
+
+
 /* Hover */
 
 @media (hover: hover) {

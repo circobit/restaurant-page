@@ -3,6 +3,7 @@ import "./style.css";
 import { createHeader, createContentWrapper, createFooter } from "./modules/initial-load.js";
 import loadHome from "./modules/home.js";
 import loadMenu from "./modules/menu.js";
+import loadAbout from "./modules/about.js";
 
 // Get #content div
 const contentDiv = document.getElementById("content");
@@ -29,5 +30,7 @@ function switchTab(loadFunction) {
 // Set event listener to nav buttons
 const homeBtn = document.getElementById("homeBtn");
 const menuBtn = document.getElementById("menuBtn");
+const aboutBtn = document.getElementById("aboutBtn");
 homeBtn.addEventListener("click", () => switchTab(loadHome));
 menuBtn.addEventListener("click", () => switchTab(loadMenu));
+aboutBtn.addEventListener("click", () => switchTab(loadAbout));
