@@ -176,7 +176,8 @@ footer {
 	color: rgb(195, 193, 193);
 }
 
-.homeContent {
+.homeContent,
+.menuContent {
 	display: flex;
 	flex-direction: column;
 	gap: 2rem;
@@ -200,8 +201,22 @@ footer {
 
 .theGridTitle,
 .homemadeTitle,
-.wineAndSpiritTitle {
+.wineAndSpiritTitle,
+.itemTitle {
 	font-weight: bold;
+	text-align: center;
+}
+
+
+/* Menu */
+
+.menuGrid {
+	display: grid;
+	grid-template-columns: 1fr;
+	gap: 1rem;
+	width: 100%;
+	max-width: 55rem;
+	padding: 1.5rem 2rem;
 }
 
 
@@ -217,13 +232,15 @@ footer {
 /* Media queries to increase grid columns based in screen width */
 
 @media (min-width: 640px) {
-	.gridHighlights {
+	.gridHighlights,
+	.menuGrid {
 		grid-template-columns: repeat(2, 1fr);
 	}
 }
 
 @media (min-width: 1024px) {
-	.gridHighlights {
+	.gridHighlights,
+	.menuGrid {
 		grid-template-columns: repeat(3, 1fr);
 	}
 }
