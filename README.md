@@ -2,7 +2,7 @@
 
 This project belongs to the [JavaScript course](https://www.theodinproject.com/lessons/node-path-javascript-restaurant-page) from [The Odin Project](https://www.theodinproject.com/).
 
-The objective of this project is to implement webpack and modules. The design is required to count with tabbed browsing. 
+The objective of this project is to implement webpack and modules. The design is required to count with tabbed browsing and the html elements should be generated with JavaScript.
 
 
 ## Demo
